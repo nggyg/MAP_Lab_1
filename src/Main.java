@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("AM schimbat ceva");
         Scanner scan=new Scanner(System.in);
-        int a,i=0,m=0;
+        int i=0,m=0;
         String str;
         while(true){
             str=scan.nextLine();
